@@ -2,35 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Studio</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 
 <body>
     <header class="header">
-        <nav class="navigation">
-            <a href="/index.html" class="nav-link"> <span>Web</span>Studio</a>
-            <ul class="nav-menu list">
-                <li class="nav-menu-item"><a class="link" href="./index.html">Студия</a></li>
-                <li class="nav-menu-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-menu-item"><a class="link" href="">Контакты</a></li>
-            </ul>
-        </nav>
+        <div class="container border">
+            <nav class="navigation">
+                <a href="/index.html" class="nav-link"> <span>Web</span>Studio</a>
 
-        <ul class="contacts list">
-        <li class="contacts-item"><a class="link" href="">info@devstudio.com</a></li>
-        <li class="contacts-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+
+                <ul class="nav-menu list">
+                    <li class="nav-menu-item"><a class="link" href="./index.html">Студия</a></li>
+                    <li class="nav-menu-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-menu-item"><a class="link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+
+
+            <ul class="contacts list container">
+                <li class="contacts-item"><a class="link" href="">info@devstudio.com</a></li>
+                <li class="contacts-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
     <main>
-        <section class="main-content">
+        <section class="section">
+       
+            <div class="container buttons-container">
 <ul class="buttons-list list">
     <li><button class="buttons" type="button">Все</button></li>
     <li><button class="buttons" type="button">Веб-сайты</button></li>
@@ -38,15 +47,17 @@
     <li><button class="buttons" type="button">Дизайн</button></li>
     <li><button class="buttons" type="button">Маркетинг</button></li>
 </ul>
+</div>
 
 
-<section class="projects">
+    <div class="container">
 <ul class="sites list">
     <li class="site-link">
     <a href="">
      <img src="./img/portfolio/img1.jpg" alt="технокряк" width="370">
+     
      <h3 class="sites-title">Технокряк</h3>
-     <p class="sites-text">Веб-сайт</p> 
+     <p class="sites-text">Веб-сайт</p>
     </a>
    </li>
     
@@ -116,21 +127,24 @@
     </li>
 
 </ul>
+</div>
 </section>
-</section>
+
     </main>
 
     <footer>
         <section class="footer-main">
-            <a class="footer-logo link" href=""> <span>Web</span>Studio</a>
-            <address>
+            <div class="container">
+                <a class="footer-logo link" href=""> <span>Web</span>Studio</a><br>
+    
                 <a class="footer-adress link" href="https://goo.gl/maps/UbBYspgLXYqze9f7A" target="_blank"
                     rel="noopener noreferrer">г. Киев, пр-т Леси Украинки,
                     26</a><br>
-                <a class="footer-info link" href="">info@example.com</a> <br>
+                <a class="footer-info link" href="">info@example.com</a>
                 <a class="footer-info link" href="">+38 099 111 11 11</a>
-            </address>
+            </div>
         </section>
+    
     </footer>
     
     
