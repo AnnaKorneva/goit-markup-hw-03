@@ -140,6 +140,8 @@ ul {
 }
 
 .features-title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
   color: var(--primary-text-color);
@@ -151,10 +153,6 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-size: 14px;
-}
-
-.work {
-  padding-bottom: 0;
 }
 
 .work .container {
@@ -170,7 +168,7 @@ ul {
 }
 
 .title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   color: var(--primary-text-color);
@@ -203,7 +201,7 @@ ul {
 }
 .title-name {
   text-align: center;
-  margin-top: 30px;
+
   color: var(--primary-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -212,20 +210,28 @@ ul {
 }
 .team-text {
   text-align: center;
-  margin-top: 10px;
+  padding-top: 10px;
   font-size: 16px;
   line-height: 1.17;
   color: #757575;
   letter-spacing: 0.03em;
 }
 
-.footer-main .container {
+.team-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer {
   flex-direction: column;
+  background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer-logo {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
@@ -235,6 +241,7 @@ ul {
   font-family: Raleway;
 }
 .footer-adress {
+  margin-bottom: 9px;
   text-decoration: none;
   line-height: 1.71;
   color: #ffffff;
@@ -247,23 +254,26 @@ ul {
   opacity: 0.7;
   letter-spacing: 0.03em;
 }
+.footer-info:not(:last-child) {
+  margin-bottom: 9px;
+}
 
+.footer-links {
+  flex-direction: column;
+}
+
+.footer-links a {
+  display: block;
+  flex-direction: column;
+}
 span {
   color: var(---accent-color);
-}
-.footer-main {
-  background-color: #2f303a;
-  padding-bottom: 0;
 }
 
 .sites a {
   text-decoration: none;
 }
 .sites-title {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-left: 24px;
-
   font-weight: 700;
   line-height: 2;
   color: var(--primary-text-color);
@@ -271,7 +281,6 @@ span {
   letter-spacing: 0.06em;
 }
 .sites-text {
-  padding: 4px 24px 20px 24px;
   font-size: 16px;
   color: #757575;
   line-height: 1.87;
@@ -297,7 +306,7 @@ span {
 
 .buttons-list {
   display: flex;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .buttons-container {
@@ -318,7 +327,7 @@ span {
   border-radius: 0px 0px 4px 4px;
 }
 .border {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .sites {
@@ -336,4 +345,11 @@ span {
 }
 .site-link:nth-child(n + 6) {
   margin-bottom: 0;
+}
+.info-app {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
+img {
+  display: block;
 }
